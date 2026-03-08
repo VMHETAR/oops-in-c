@@ -1,8 +1,8 @@
 /*
 Group data and functions together
 */
-#include <stdio.h>
-#include<conio.h>
+# include <stdio.h>
+# include <conio.h>
 
 typedef struct{
     int value;
@@ -20,7 +20,7 @@ int main(){
     Counter c = {0};  //Initializing the counter to 0 
     increment(&c);
     increment(&c);
-    
+
     print(&c);
     return 0;
 }
