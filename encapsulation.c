@@ -7,6 +7,7 @@ Group data and functions together
 typedef struct{
     int value;
 }Counter;
+Counter c1;
 
 void increment(Counter *c){
     c->value++;
